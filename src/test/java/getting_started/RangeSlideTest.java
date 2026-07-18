@@ -5,8 +5,6 @@ import static org.slf4j.LoggerFactory.getLogger;
 
 import java.io.IOException;
 import java.lang.invoke.MethodHandles;
-import java.nio.file.Files;
-import java.nio.file.Path;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;

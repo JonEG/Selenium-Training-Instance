@@ -2,20 +2,15 @@ package getting_started;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import java.util.Set;
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.ScriptKey;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.locators.RelativeLocator;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
